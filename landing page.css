@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 1%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+   text-align: center;
+}
+
+
+#navbar{
+    padding: 0.5rem;
+    background-color: rgb(45, 45, 45);
+  
+}
+
+nav ul{
+    display: flex;
+   list-style: none;
+   gap: 1rem;
+}
+
+nav ul a{
+    color: white;
+}
+
+nav ul a:hover{
+    color: red;
+}
+
+#home{
+    text-align: right;
+}
+
+
+#button{
+    
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+}
+#search_box {
+    width: 300px;       
+    height: 20px;      
+    font-size: 16px;    
+     padding: 5px 10px; 
+     border-radius: 5px; 
+}
+
+#button {
+         
+    font-size: 16px;     
+    padding: 5px 15px;    
+    margin-left: 5px;    
+    border-radius: 5px; 
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;      
+}
+
+.search_bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+#products{
+    margin:left 5%s;
+}
+
+#products h2{
+    margin: 1%;
+    text-align: center;
+}
+
+#products ul{
+    list-style: none;
+}
+
+#products ul li{
+  display: inline-table;
+  padding: right 0;
+}
+
+#products h3{
+text-align: center;
+}
+
+#products p{
+text-align: center;
+}
+
+.add{
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    margin-left: 40%;
+    border-radius: 5px;
+  font-size: 15px;
+  padding: 1%;
+}
+
+footer{
+    margin-top: 2%;
+    color: white;
+    background-color: black;
+    display: flex;
+  
+}
+
+footer button{
+    background-color: rgb(255, 0, 0) ;
+    padding: 0.5%;
+    margin-left: 68%;
+    border-radius: 5px;
+}
+
+footer button a{
+    color: black;
+}
+
+footer button:hover{
+    background-color:greenyellow;
+}
+
+
+
